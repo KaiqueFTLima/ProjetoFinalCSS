@@ -90,7 +90,7 @@ section.descricao h3{
 section.descricao p{
     color:#6c757d;
     font-size:20px;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .icons-social{
@@ -111,4 +111,39 @@ section.descricao p{
 
 .icons-social i{
     line-height:40px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-bottom: 10%;
+}
+  
+ button:hover {
+    background-color: #555;
+}
+
+body.escuro {
+    background-color: #121212;
+    color: #ffffff;
+}
+  
+body.escuro a,
+body.escuro p,
+body.escuro h2,
+body.escuro h3{
+    color: white;
+}
+
+body {
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-claro);
+    font-family: Arial, sans-serif;
+    display: flex;
 }
